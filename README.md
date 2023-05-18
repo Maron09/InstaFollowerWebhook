@@ -20,8 +20,15 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 
 <code>pip install -r requirements.txt</code>
 <br>
-<li>Usage</li>
+<strong>Usage</strong>
 <br>
-Start the Flask server:
+<li>Start the Flask server:</li>
 
 <code>python app.py</code>
+<br>
+<li>By default, the application runs on http://localhost:5000/.</li>
+
+<li>Send a POST request to the server with a JSON payload:</li>
+
+
+<code>curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' http://localhost:5000/</code>
