@@ -2,11 +2,11 @@
 
 This is a simple Flask application that serves as a webhook endpoint. It receives incoming JSON payloads and prints them to the console. Additionally, it responds with a JSON message confirming the receipt of the event.
 <hr>
-<strong>Prerequisites</strong>
+<strong><h2>Prerequisites</h2></strong>
 <li>Python 3.x</li>
 <li>Flask</li>
 <hr>
-<strong>Installation</strong>
+<strong><h2>Installation</h2></strong>
 <br>
 <li>Clone the repository or download the source code:</li>
 
@@ -20,7 +20,7 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 
 <code>pip install -r requirements.txt</code>
 <br>
-<strong>Usage</strong>
+<strong><h2>Usage</h2></strong>
 <br>
 <li>Start the Flask server:</li>
 
@@ -35,7 +35,8 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 <br>
 <li>The application will print the received JSON payload to the console.</li>
 <br>
-<strong>Configuration</strong>
+<strong><h2>Configuration</h2></strong>
+<br>
 You can modify the Flask application by editing the app.py file. Here are some aspects you might want to customize:
 
 <li>Debug mode: By default, the application runs in debug mode. To disable it, change the following line in app.py:</li>
@@ -45,7 +46,8 @@ You can modify the Flask application by editing the app.py file. Here are some a
 
 <code>@app.route('/your/endpoint', methods=['POST'])</code>
 <br>
-<strong>License</strong>
+<strong><h2>License</h2></strong>
+<br>
 This project is licensed under the MIT License.
 
 Feel free to adjust and expand the README file to suit your specific needs. Make sure to include any additional instructions or information that would be helpful to users interacting with your Flask application.
