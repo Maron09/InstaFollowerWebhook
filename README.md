@@ -9,7 +9,9 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 <strong>Installation</strong>
 <br>
 <ol>Clone the repository or download the source code:</ol>
+
 <code>git clone <repository_url></code>
 <br>
 <ol>Navigate to the project directory:</ol>
+
 <code>cd <project_directory></code>
