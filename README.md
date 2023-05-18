@@ -8,10 +8,20 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 <hr>
 <strong>Installation</strong>
 <br>
-<ol>Clone the repository or download the source code:</ol>
+<li>Clone the repository or download the source code:</li>
 
 <code>git clone <repository_url></code>
 <br>
-<ol>Navigate to the project directory:</ol>
+<li>Navigate to the project directory:</li>
 
 <code>cd <project_directory></code>
+<br>
+<li>Install the required dependencies using pip:</li>
+
+<code>pip install -r requirements.txt</code>
+<br>
+<li>Usage</li>
+<br>
+Start the Flask server:
+
+<code>python app.py</code>
