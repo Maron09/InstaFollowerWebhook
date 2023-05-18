@@ -7,6 +7,7 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 <li>Flask</li>
 <hr>
 <strong>Installation</strong>
-Clone the repository or download the source code:
+<br>
+<ol>Clone the repository or download the source code:</ol>
 
 <code>git clone <repository_url></code>
