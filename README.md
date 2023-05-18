@@ -32,3 +32,20 @@ This is a simple Flask application that serves as a webhook endpoint. It receive
 
 
 <code>curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' http://localhost:5000/</code>
+<br>
+<li>The application will print the received JSON payload to the console.</li>
+<br>
+<strong>Configuration</strong>
+You can modify the Flask application by editing the app.py file. Here are some aspects you might want to customize:
+
+<li>Debug mode: By default, the application runs in debug mode. To disable it, change the following line in app.py:</li>
+
+<code>app.run(debug=True)</code>
+<li>Route: The webhook endpoint is currently set to '/'. If you want to use a different endpoint, modify the route decorator in app.py:</li>
+
+<code>@app.route('/your/endpoint', methods=['POST'])</code>
+<br>
+<strong>License</strong>
+This project is licensed under the MIT License.
+
+Feel free to adjust and expand the README file to suit your specific needs. Make sure to include any additional instructions or information that would be helpful to users interacting with your Flask application.
